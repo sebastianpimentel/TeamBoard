@@ -1,18 +1,21 @@
 .container {
   display: flex;
   flex-direction: column;
+  color: #000;
 }
 
 .button {
   width: 100%;
-  background-color: #3d3838;
-  color: white;
+  background-color: #d4d4d42f;
+  color: #000000;
 }
 
 .card {
   min-width: 150px;
   max-width: 500px;
   width: 100%;
+  background-color: #d4d4d42f;
+  color: #000;
 }
 
 .form {
@@ -20,14 +23,18 @@
   justify-content: center;
   align-items: center;
   padding: 100px 16px 0px;
+  color: #000;
+
 }
 
 .bgComponent {
   width: 100%;
   height: 100%;
   padding-bottom: 30%;
+  color: #000;
 }
 
 mat-card-title {
   text-align: center;
+  color: #000;
 }
